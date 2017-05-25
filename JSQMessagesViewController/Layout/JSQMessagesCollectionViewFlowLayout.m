@@ -309,9 +309,6 @@ const CGFloat kJSQMessagesCollectionViewAvatarSizeDefault = 30.0f;
         if (attributesItem.representedElementCategory == UICollectionElementCategoryCell) {
             [self jsq_configureMessageCellLayoutAttributes:attributesItem];
         }
-        else {
-            attributesItem.zIndex = -1;
-        }
     }];
     
     return attributesInRect;
